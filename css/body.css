@@ -1,0 +1,74 @@
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background-color: #800020;
+    color: black;
+}
+
+.perfil {
+    border-radius: 50%;
+}
+
+section {
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: #800020;
+}
+
+.principal .principal-texto h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.principal .principal-texto h1 span {
+    font-size: 83px;
+}
+
+span {
+    color: #D2B48C;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+h2 span {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.principal-texto h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.perfil img {
+    position: relative;
+    width: 28vw;
+    border-radius: 50px;
+    box-shadow: 0 0 25px solid #D2B48C;
+    cursor: pointer;
+    transition: 0.4 linear;
+}
+
+.perfil img:hover {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
